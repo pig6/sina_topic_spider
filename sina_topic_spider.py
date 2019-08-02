@@ -8,7 +8,7 @@ import random
 import requests
 
 # 每次请求中最小的since_id，下次请求使用，新浪分页机制
-min_since_id = '4396576955231357'
+min_since_id = ''
 # 生成Session对象，用于保存Cookie
 s = requests.Session()
 # 新浪话题数据保存文件
